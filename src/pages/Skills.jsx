@@ -22,7 +22,7 @@ export default function Skills() {
             <h2 className="text-center text-4xl font-semibold mt-6">Skills</h2>
             <div className="shadow-blue-100 shadow-md m-2">
             <h2 className="text-2xl text-center mt-3">Programming Languages</h2>
-            <div className="flex flex-wrap justify-center gap-6 p-6">
+            <div className="flex flex-wrap justify-center gap-6 p-6 m-3">
                 {languages.map((language, index) => (
                     <div key={index} className="w-64 h-48 bg-white shadow-lg rounded-xl flex flex-col items-center justify-center p-6 transition-transform duration-300 hover:scale-105">
                         {language.icon}
@@ -34,7 +34,7 @@ export default function Skills() {
             </div>
             </div>
 
-            <div className="shadow-blue-100 shadow-md m-2">
+            <div className="shadow-blue-100 shadow-lg m-2">
             <h2 className="text-2xl text-center mt-5">Frameworks, Tools and Technologies</h2>
             <div className="flex flex-wrap justify-center gap-6 p-6">
                 {frameworks.map((framework, index) => (

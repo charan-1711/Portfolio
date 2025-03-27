@@ -26,7 +26,6 @@ export default function Navbar() {
                 <li className="p-3 text-center md:p-0"><Link to="/about" onClick={() => setIsOpen(false)}>About</Link></li>
                 <li className="p-3 text-center md:p-0"><Link to="/projects" onClick={() => setIsOpen(false)}>Projects</Link></li>
                 <li className="p-3 text-center md:p-0"><Link to="/skills" onClick={() => setIsOpen(false)}>Skills</Link></li>
-                <li className="p-3 text-center md:p-0"><Link to="/resume" onClick={() => setIsOpen(false)}>Resume</Link></li>
                 <li className="p-3 text-center md:p-0"><Link to="/contact" onClick={() => setIsOpen(false)}>Contact</Link></li>
             </ul>
         </nav>

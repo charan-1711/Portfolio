@@ -1,6 +1,6 @@
 {
   "name": "charan",
-  "homepage": "https://charan-1711.github.io/charan-portfolio.git/",
+  "homepage": "https://charan-1711.github.io/charan-portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
