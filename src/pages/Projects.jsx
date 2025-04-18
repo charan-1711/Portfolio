@@ -11,8 +11,8 @@ export default function Projects(){
                         <h2 className="text-center text-xl text-blue-800 font-semibold">{project.title}</h2>
                         <p className="mt-4">{project.description}</p>
                         <p className="mt-2 text-xl font-semibold">Language and Tools Used:</p>
-                        <h6 className="">{project.tools}</h6>
-                        <div className="font-bold p-2 mt-3 rounded-lg border w-25 text-center border-blue-500"><a href={project.link} className="text-blue-500">View</a></div>
+                        <h6 className="text-center">{project.tools}</h6>
+                        <div className="font-bold p-2 mt-3 rounded-lg border w-25 text-center border-blue-500 text-blue-500 hover:text-white hover:bg-blue-700 hover:border-none"><a href={project.link} className="">View</a></div>
                     </div>
                 ))}
             </div>

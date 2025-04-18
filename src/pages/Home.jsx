@@ -73,16 +73,6 @@ export default function Home() {
                         >
                             <p>Your browser does not support PDF viewing. <a href={MyResume} download>Download it here.</a></p>
                         </object>
-
-                        {/* Download Button */}
-                        <a 
-                            href={MyResume} 
-                            download 
-                            className="mt-4 inline-flex items-center px-5 py-2 bg-green-600 text-white font-semibold rounded-lg shadow-lg hover:bg-green-700 transition"
-                        >
-                            <FaDownload className="mr-2" />
-                            Download
-                        </a>
                     </div>
                 </div>
             )}
